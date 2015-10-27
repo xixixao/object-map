@@ -1,0 +1,24 @@
+{
+  "name": "object-map",
+  "version": "1.0.0",
+  "description": "Map a function over some Object's values to produce a new Object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "object",
+    "map",
+    "functional"
+  ],
+  "homepage": "https://github.com/xixixao/object-map",
+  "bugs": {
+    "url": "https://github.com/xixixao/object-map/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xixixao/object-map.git"
+  },
+  "author": "xixixao",
+  "license": "MIT"
+}
