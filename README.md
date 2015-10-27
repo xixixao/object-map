@@ -26,12 +26,12 @@ var result = objectMap(target, function(value) {
 
 `objectMap(target, callback[, thisArg])`
 
-`target` an object who's properties are iterated using `hasOwnProperty`
-`callback` a function producing a value of the new Object, taking three arguments:
-  `currentValue` the value currently associated with the key
-  `key` the current key
-  `object` the original object passed to `objectMap`
-`thisArg` Optional. Value to use as `this` when executing `callback`.
+- `target` an object who's properties are iterated using `hasOwnProperty`
+- `callback` a function producing a value of the new Object, taking three arguments:
+  - `currentValue` the value currently associated with the key
+  - `key` the current key
+  - `object` the original object passed to `objectMap`
+- `thisArg` Optional. Value to use as `this` when executing `callback`.
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
