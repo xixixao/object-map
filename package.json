@@ -1,6 +1,6 @@
 {
   "name": "object-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Map a function over some Object's values to produce a new Object.",
   "main": "index.js",
   "scripts": {
