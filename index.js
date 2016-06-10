@@ -1,6 +1,6 @@
 module.exports = function (object, cb, context) {
   var newObject = {}
-  for (key in object) {
+  for (var key in object) {
     if (!object.hasOwnProperty(key)) {
       continue;
     }
